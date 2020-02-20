@@ -49,7 +49,7 @@ public class ArrayListExample {
 		//ensureCapacity example, it's ArrayList method, so object should be defined like below.
 		ArrayList<String> tempList = new ArrayList<String>();
 		tempList.ensureCapacity(11);
-		System.out.println(tempList.size());
+		System.out.println("list size after ensureCapacity: "+tempList.size());
 		
 		//get example
 		System.out.println(letters.get(4));

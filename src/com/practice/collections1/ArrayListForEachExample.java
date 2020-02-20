@@ -14,5 +14,6 @@ public class ArrayListForEachExample {
 			list.add("Motorola");
 			
 			list.forEach( x -> {System.out.println("Processing "+x);} );
+			// Here Consumer.accept(String) functional interface is used for lambda expression
 		}
 }

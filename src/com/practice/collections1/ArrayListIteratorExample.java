@@ -16,17 +16,18 @@ public class ArrayListIteratorExample {
 		ints.add(6);	ints.add(7);	ints.add(8);
 		ints.add(9);	ints.add(10);	ints.add(11);
 		
-		System.out.println(ints);
+		System.out.println("initial ints: "+ints);
 		
 		Iterator<Integer> it = ints.iterator();
 		
 		while(it.hasNext()){
 			int x = it.next();
-			
+		
 			if(x % 2 == 0 ){
 				it.remove();
 		}
-		System.out.println(ints);
+	}
+		System.out.println("ints second "+ints);
 		
 		it = ints.iterator();
 		while(it.hasNext()){
@@ -40,4 +41,3 @@ public class ArrayListIteratorExample {
 	}
 	
 }
-	}
